@@ -1,0 +1,18 @@
+{
+  "name": "api-gateway",
+  "version": "1.0.0",
+  "description": "A simple API Gateway to learn how routing works behind the scenes.",
+  "type": "module",
+  "scripts": {
+    "auth": "node authServer.js",
+    "user": "node userServer.js",
+    "product": "node productServer.js",
+    "gateway": "node gateway.js",
+    "dev": "concurrently \"node authServer.js\" \"node userServer.js\" \"node productServer.js\" \"node gateway.js\""
+  },
+  "dependencies": {
+    "axios": "^1.18.1",
+    "concurrently": "^10.0.4",
+    "express": "^5.2.1"
+  }
+}
