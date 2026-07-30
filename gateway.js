@@ -1,5 +1,5 @@
 // API Gateway — the single entry point for all clients
-// In a microservices architecture, you have many small servers.
+// In a microservices architecture, you have many small servers .
 // A client shouldn't need to know the address of every server.
 // Instead, the client talks to ONE gateway, and the gateway
 // forwards the request to the correct backend server.
@@ -13,6 +13,7 @@ const PORT = 3000;
 // ============================================
 // Routing Table
 // ============================================
+// the servers are started on ports 5001, 5002, and 5003
 // This is the CORE of the gateway.
 // It maps incoming URL paths to the backend server that handles them.
 
