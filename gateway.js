@@ -2,7 +2,7 @@
 // In a microservices architecture, you have many small servers .
 // A client shouldn't need to know the address of every server.
 // Instead, the client talks to ONE gateway, and the gateway
-// forwards the request to the correct backend server.
+// forwards the request to the correct backend server .
 
 import express from "express";
 import axios from "axios";
