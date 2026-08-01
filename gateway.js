@@ -10,9 +10,9 @@ import axios from "axios";
 const app = express();
 const PORT = 3000;
 
-// ============================================
+// =================
 // Routing Table
-// ============================================
+// =================
 // the servers are started on ports 5001, 5002, and 5003
 // This is the CORE of the gateway.
 // It maps incoming URL paths to the backend server that handles them.
