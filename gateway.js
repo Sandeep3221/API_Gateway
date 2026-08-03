@@ -15,7 +15,7 @@ const PORT = 3000;
 // =====================================
 // the servers are started on ports 5001, 5002, and 5003
 // This is the CORE of the gateway.
-// It maps incoming URL paths to the backend server that handles them.
+// It maps incoming URL paths to the backend server that handles them .
 
 const routes = {
   "/login": "http://localhost:5001",
