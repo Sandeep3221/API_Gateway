@@ -42,6 +42,7 @@ app.use(async (req, res) => {
   console.log(`${req.method} ${path}`);
 
   // Step 4: If no matching route exists, tell the client
+  
   if (!targetServer) {
     console.log(`No route found for ${path}`);
     return res.status(404).json({ message: "Route not found" });
