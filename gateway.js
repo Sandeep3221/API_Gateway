@@ -34,7 +34,7 @@ app.use(async (req, res) => {
   const path = req.path;
 
   
-  // Step 2: Look up the correct backend server from the routing table
+  // Step 2: Look up the correct backend server from the  routing table
   const targetServer = routes[path];
 
   // Step 3: Log what came in — useful for debugging
@@ -42,7 +42,7 @@ app.use(async (req, res) => {
   console.log(`${req.method} ${path}`);
 
   // Step 4: If no matching route exists, tell the client
-  
+
   if (!targetServer) {
     console.log(`No route found for ${path}`);
     return res.status(404).json({ message: "Route not found" });
