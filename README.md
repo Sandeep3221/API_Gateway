@@ -1,3 +1,4 @@
+<img width="1536" height="1024" alt="API_Gateway" src="https://github.com/user-attachments/assets/e86de168-3070-4863-92c2-3d4c1174fb77" />
 # API Gateway — Learn the Core Routing Concept
 
 ## What is an API Gateway?
